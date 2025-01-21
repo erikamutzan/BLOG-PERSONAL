@@ -1,0 +1,62 @@
+/* este es un comentario en css */
+/* selector universal: Selecciona todos los elementos*/
+*{
+    background-color: white;
+}
+
+.nunito-uniquifier {
+  font-family: "Nunito", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+h4 {
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+h2 {
+    color: rgb(190, 13, 111);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;  
+}
+
+
+h1
+{
+    color:blueviolet;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;  
+}
+p,
+ol{
+    color:rgb(29, 163, 152) !important; /* sw cambio*/
+}
+ul {
+    color:rgb(182, 29, 29);
+}
+span{
+    color:rgb(13, 13, 218);
+}
+
+/*Selector de clase: Las clases si se comparten entre un conjunto de elementos*/
+
+.tops {
+     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     color: rgb(18, 134, 212);
+     font-size:30px;
+}
+.verso{
+    color:aquamarine;
+}
+/*Selector de ID: seleccionan un elemento especifico y NO se comparte con otro elementos*/
+#verso-resaltado{
+    color:rgb(250, 0, 187);
+    font-size: 20px;
+}
+
+#foto-rey{
+     width:  300px;
+     height: 250px;
+}
